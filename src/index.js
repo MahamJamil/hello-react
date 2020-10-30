@@ -2,12 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-ReactDOM.render( <
-    ul >
-    <
-    li > Pizza < /li> <
-    li > Hamburger < /li> <
-    li > Panini < /li> < /
-    ul > ,
+let city = 'Islamabad';
+
+ReactDOM.render( < h1 > Hello from { city }! < /h1>,
     document.getElementById('root')
 );
