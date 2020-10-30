@@ -7,6 +7,7 @@ let city = {
     country: 'Pakistan'
 };
 
-ReactDOM.render( < h1 id = 'heading' > Hello from { city.name }, { city.country }! < /h1>,
+ReactDOM.render( < h1 id = 'heading'
+    className = 'cool-text' > Hello from { city.name }, { city.country }! < /h1>,
     document.getElementById('root')
 );
