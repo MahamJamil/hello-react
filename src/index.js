@@ -8,7 +8,7 @@ function Hello(props) {
     return ( <
         div >
         <
-        h1 > Welcome to React! < /h1>  <
+        h1 > Welcome to { props.library }! < /h1>  <
         p > Let 's build something cool!</p>< /
         div >
     );
