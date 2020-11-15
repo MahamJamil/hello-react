@@ -3,22 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 
-function Hello({ library, message, number }) {
-
-    return ( <
-        div >
-        <
-        h1 > Welcome to { library }! < /h1>  <
-        p > { message } < /p> <
-        p > { number }
-        Props Total < /p>< /
-        div >
-    );
+function App() {
+    return <div > App < /div>
 }
 
-ReactDOM.render( < Hello library = 'React'
-    message = 'Have fun!'
-    number = { 3 }
-    / > ,
+
+
+ReactDOM.render( < App / > ,
     document.getElementById('root')
 );
