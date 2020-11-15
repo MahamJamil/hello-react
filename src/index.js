@@ -4,7 +4,7 @@ import './index.css';
 
 
 function Hello(props) {
-    console.log(props);
+    console.log(Object.keys(props));
     return ( <
         div >
         <
