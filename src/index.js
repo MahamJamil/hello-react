@@ -8,10 +8,10 @@ let city = {
 };
 
 function Hello() {
-    return <h1 > Welcome to React < /h1>
+    return <h1 > Welcome to React! < /h1>
 }
 
-ReactDOM.render( < h1 id = 'heading'
-    className = 'cool-text' > Hello from { city.name }, { city.country }! < /h1>,
+ReactDOM.render( < h1 id = 'heading' <
+    Hello > < /Hello>,
     document.getElementById('root')
 );
