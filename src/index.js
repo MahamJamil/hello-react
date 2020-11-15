@@ -14,6 +14,6 @@ function Hello(props) {
     );
 }
 
-ReactDOM.render( < Hello library = 'React' / > ,
+ReactDOM.render( < Hello library = 'Next.js' / > ,
     document.getElementById('root')
 );
