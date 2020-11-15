@@ -11,7 +11,7 @@ function Hello(props) {
         h1 > Welcome to { props.library }! < /h1>  <
         p > { props.message } < /p> <
         p > { props.number }
-        total props < /p>< /
+        Props Total < /p>< /
         div >
     );
 }
