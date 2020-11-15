@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 
-function Lake(props) {
+function Lake(name) {
     return ( <
-        h1 > { props.name } < /h1>
+        h1 > { name } < /h1>
     )
 }
 
