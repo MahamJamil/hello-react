@@ -17,6 +17,8 @@ function App() {
         <
         Lake name = 'Angora Lake' / >
         <
+        Lake name = 'Shirley Lake' / >
+        <
         /div>
     )
 }
