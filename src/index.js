@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 
-function Hello() {
+function Hello(props) {
+    console.log(props);
     return ( <
         div >
         <
