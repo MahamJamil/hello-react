@@ -10,7 +10,7 @@ function Hello(props) {
         <
         h1 > Welcome to { props.library }! < /h1>  <
         p > { props.message } < /p> <
-        p > { props.number }
+        p > { Object.keys(props).length }
         Props Total < /p>< /
         div >
     );
