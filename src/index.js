@@ -10,7 +10,15 @@ function Lake(props) {
 }
 
 function App() {
-    return <div > App < /div>
+    return ( <
+        div >
+        <
+        Lake name = 'Lake Tahoe' / >
+        <
+        Lake name = 'Angora Lake' / >
+        <
+        /div>
+    )
 }
 
 ReactDOM.render( < App / > ,
