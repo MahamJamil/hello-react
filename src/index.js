@@ -9,11 +9,12 @@ function Hello(props) {
         div >
         <
         h1 > Welcome to { props.library }! < /h1>  <
-        p > Let 's build something cool!</p>< /
+        p > { props.message } < /p>< /
         div >
     );
 }
 
-ReactDOM.render( < Hello library = 'React' / > ,
+ReactDOM.render( < Hello library = 'React'
+    message = 'Have fun!' / > ,
     document.getElementById('root')
 );
