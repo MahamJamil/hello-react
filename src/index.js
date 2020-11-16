@@ -5,10 +5,10 @@ import './index.css';
 
 const lakeList = ["Echo Lake", "Maud Lake", "Cascade Lake"]
 
-function App(props) {
+function App(lakes) {
     return ( <
             ul > {
-                props.lakes.map(lake => ( < li > { lake } < /li>))} < /
+                lakes.map(lake => ( < li > { lake } < /li>))} < /
                         ul >
                     )
                 }
