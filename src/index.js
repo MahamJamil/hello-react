@@ -3,24 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 
-function Lake(name) {
-    return ( <
-        h1 > { name } < /h1>
-    )
-}
+const lakeList = ["Echo Lake", "Maud Lake", "Cascade Lake"]
 
 function App() {
-    return ( <
-        div >
-        <
-        Lake name = 'Lake Tahoe' / >
-        <
-        Lake name = 'Angora Lake' / >
-        <
-        Lake name = 'Shirley Lake' / >
-        <
-        /div>
-    )
+    return <div > Eventual Lakes < /div>;
 }
 
 ReactDOM.render( < App / > ,
