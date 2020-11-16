@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 
-const lakeList = ["Echo Lake", "Maud Lake", "Cascade Lake"]
+const lakeList = [
+    { id: "1", name: "Echo", trailhead: "Lake" },
+    { id: "2", name: "Maud", trailhead: "Wrights" },
+    { id: "3", name: "Cascade", trailhead: "Bayview" }
+]
 
 function App(lakes) {
     return ( <
