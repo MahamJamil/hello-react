@@ -9,6 +9,7 @@ function App() {
     return <div > Eventual Lakes < /div>;
 }
 
-ReactDOM.render( < App / > ,
+ReactDOM.render( < App lakes = { lakeList }
+    / > ,
     document.getElementById('root')
 );
