@@ -7,7 +7,7 @@ const list = [1, 2, 3, 4, 5]
 function App({ items }) {
     return ( <
             ul > {
-                items.map((item => < li key = { item.toString() } > { item } < /li>))} < /
+                items.map(((item, i) => < li key = { i } > { item } < /li>))} < /
                         ul >
                     )
                 }
