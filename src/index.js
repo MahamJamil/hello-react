@@ -2,17 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-const list = [1, 2, 3, 4, 5]
-
-function App({ items }) {
+function Lake() {
     return ( <
-            ul > {
-                items.map(((item, i) => < li key = { i } > { item } < /li>))} < /
-                        ul >
-                    )
-                }
+        div >
+        <
+        h1 > Visit Jenny Lake! < /h1> < /
+        div >
+    )
+}
 
-                ReactDOM.render( < App items = { list }
-                    / > ,
-                    document.getElementById('root')
-                );
+function SkiResort() {
+    return ( <
+        div >
+        <
+        h1 > Visit Jackson Hole Mountain Resort! < /h1> < /
+        div >
+    )
+}
+
+ReactDOM.render( < App / > ,
+    document.getElementById('root')
+);
