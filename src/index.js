@@ -31,6 +31,6 @@ function App(props) {
 
 }
 
-ReactDOM.render( < App season = "summer" / > ,
+ReactDOM.render( < App season = "fall" / > ,
     document.getElementById('root')
 );
