@@ -10,14 +10,19 @@ const lakeList = [
 ]
 
 function App(lakes) {
-    return ( <
-            ul > {
-                lakes.map(lake => ( < li > { lake } < /li>))} < /
-                        ul >
-                    )
-                }
+    return ( < div > {
+            lakes.map(lake => ( <
+                div >
+                <
+                h2 > { lake.name } < /h2> <
+                p > Accessed by { lake.trailhead } < /p> <
+                /div>
+            ))
+        } <
+        /div>)
+    }
 
-                ReactDOM.render( < App lakes = { lakeList }
-                    / > ,
-                    document.getElementById('root')
-                );
+    ReactDOM.render( < App lakes = { lakeList }
+        / > ,
+        document.getElementById('root')
+    );
