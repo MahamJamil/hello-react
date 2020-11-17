@@ -9,14 +9,14 @@ const lakeList = [
     { id: "3", name: "Cascade", trailhead: "Bayview" }
 ]
 
-function App(lakes) {
+function App({ lakes }) {
     return ( < div > {
             lakes.map(lake => ( <
                 div >
                 <
                 h2 > { lake.name } < /h2> <
-                p > Accessed by { lake.trailhead } < /p> <
-                /div>
+                p > Accessed by { lake.trailhead } < /p> < /
+                div >
             ))
         } <
         /div>)
