@@ -24,6 +24,8 @@ function App(props) {
     if (props.season === 'summer') {
         return <Lake / >
     }
+
+    return <SkiResort / >
 }
 
 ReactDOM.render( < App season = "summer" / > ,
