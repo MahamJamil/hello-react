@@ -21,7 +21,9 @@ function SkiResort() {
 }
 
 function App(prop) {
-
+    if (props.season === 'summer') {
+        return <Lake / >
+    }
 }
 
 ReactDOM.render( < App season = "summer" / > ,
