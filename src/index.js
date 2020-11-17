@@ -23,7 +23,7 @@ function SkiResort({ name }) {
 function App(props) {
     return ( <
         div > {
-            (props.season === "summer") ? < Lake name = "Jenny Lake" / > : < SkiResort name = "Jackson Hole Mountain Resort" / >
+            (props.season === "summer") ? < Lake name = "Jenny Lake" / > : (props.season === "winter") ? < SkiResort name = "Jackson Hole Mountain Resort" / > : < h1 > Comeback in winter or summer < /h1>
         } <
         /div>
     )
