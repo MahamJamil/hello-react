@@ -20,6 +20,10 @@ function SkiResort() {
     )
 }
 
-ReactDOM.render( < App / > ,
+function App(prop) {
+
+}
+
+ReactDOM.render( < App season = "summer" / > ,
     document.getElementById('root')
 );
