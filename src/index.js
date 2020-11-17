@@ -28,6 +28,6 @@ function App(props) {
     return <SkiResort / >
 }
 
-ReactDOM.render( < App season = "summer" / > ,
+ReactDOM.render( < App season = "winter" / > ,
     document.getElementById('root')
 );
