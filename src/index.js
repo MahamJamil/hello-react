@@ -20,7 +20,7 @@ function SkiResort() {
     )
 }
 
-function App(prop) {
+function App(props) {
     if (props.season === 'summer') {
         return <Lake / >
     }
