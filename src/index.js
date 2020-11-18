@@ -14,7 +14,7 @@ function SkiResort() {
     )
 }
 
-function App() {
+/* function App() {
     return ( < >
         <
         Lake / >
@@ -25,8 +25,14 @@ function App() {
     );
 
 
-}
+} */
 
-ReactDOM.render( < App / > ,
+ReactDOM.render( < >
+    <
+    Lake / >
+    <
+    SkiResort / >
+    <
+    /> ,
     document.getElementById('root')
 );
