@@ -15,13 +15,13 @@ function SkiResort() {
 }
 
 function App() {
-    return ( < div >
+    return ( < React.Fragment >
         <
         Lake / >
         <
         SkiResort / >
         <
-        /div>
+        /React.Fragment>
     );
 
 
