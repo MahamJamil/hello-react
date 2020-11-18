@@ -33,12 +33,10 @@ ReactDOM.render( < App name = "React" / > ,
     document.getElementById('root')
 );
 
-const [first, second, third] = [
+const [, , first] = [
     "popcorn",
     "pretzels",
     "pineapples"
 ];
 
 console.log(first);
-console.log(second);
-console.log(third);
