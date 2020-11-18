@@ -33,4 +33,6 @@ ReactDOM.render( < App name = "React" / > ,
     document.getElementById('root')
 );
 
-const snacks = ["popcorn", "pretzels", "pineapples"]
+const snacks = ["popcorn", "pretzels", "pineapples"];
+
+console.log(snacks[0]);
