@@ -18,16 +18,17 @@ function App({ names }) {
     return ( <
         >
         <
-        h1 > { name } < /h1> <
+        h1 > { names } < /h1> <
         Lake / >
         <
         SkiResort / >
-
+        <
+        />
     );
 
 
 }
 
-ReactDOM.render( < App name = 'React' / > ,
+ReactDOM.render( < App name = "React" / > ,
     document.getElementById('root')
 );
