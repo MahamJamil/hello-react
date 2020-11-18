@@ -14,11 +14,11 @@ function SkiResort() {
     )
 }
 
-function App({ names }) {
+function App({ name }) {
     return ( <
         >
         <
-        h1 > { names } < /h1> <
+        h1 > { name } < /h1> <
         Lake / >
         <
         SkiResort / >
