@@ -36,3 +36,5 @@ ReactDOM.render( < App name = "React" / > ,
 const snacks = ["popcorn", "pretzels", "pineapples"];
 
 console.log(snacks[0]);
+console.log(snacks[1]);
+console.log(snacks[2]);
