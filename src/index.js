@@ -15,10 +15,13 @@ function SkiResort() {
 }
 
 function App() {
-    return ( <
+    return ( < div >
+        <
         Lake / >
         <
         SkiResort / >
+        <
+        /div>
     );
 
 
