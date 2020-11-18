@@ -2,35 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-function Lake({ name }) {
+function Lake() {
     return ( <
-        div >
+        h1 > Lake! < /h1> 
+    )
+}
+
+function SkiResort() {
+    return ( <
+        h1 > Ski Resort! < /h1> 
+    )
+}
+
+function App() {
+    return ( <
+        Lake / >
         <
-        h1 > Visit { name }! < /h1> < /
-        div >
-    )
-}
-
-function SkiResort({ name }) {
-    return ( <
-        div >
-        <
-        h1 > Visit { name }! < /h1> < /
-        div >
-    )
-}
-
-function App(props) {
-    return ( <
-        div > {
-            (props.season === "summer") ? < Lake name = "Jenny Lake" / > : (props.season === "winter") ? < SkiResort name = "Jackson Hole Mountain Resort" / > : < h1 > Comeback in winter or summer < /h1>
-        } <
-        /div>
-    )
+        SkiResort / >
+    );
 
 
 }
 
-ReactDOM.render( < App season = "fall" / > ,
+ReactDOM.render( < App / > ,
     document.getElementById('root')
 );
