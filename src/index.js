@@ -14,25 +14,20 @@ function SkiResort() {
     )
 }
 
-/* function App() {
-    return ( < >
+function App({ names }) {
+    return ( <
+        >
         <
+        h1 > { name } < /h1> <
         Lake / >
         <
         SkiResort / >
-        <
-        />
+
     );
 
 
-} */
+}
 
-ReactDOM.render( < >
-    <
-    Lake / >
-    <
-    SkiResort / >
-    <
-    /> ,
+ReactDOM.render( < App name = 'React' / > ,
     document.getElementById('root')
 );
