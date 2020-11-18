@@ -32,3 +32,5 @@ function App({ name }) {
 ReactDOM.render( < App name = "React" / > ,
     document.getElementById('root')
 );
+
+const snacks = ["popcorn", "pretzels", "pineapples"]
