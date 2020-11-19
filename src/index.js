@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 function CheckBox() {
-    const [checked, setChecked] = useState(false)
+    const [checked, setChecked] = useState(true)
     return ( <
         >
         <
