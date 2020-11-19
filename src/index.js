@@ -8,6 +8,10 @@ function App({ name }) {
     return ( <
         div >
         <
+        h1 > Manager: { manager } < /h1> <
+        /div> <
+        div >
+        <
         h1 > Status: { status } < /h1>   <
         button onClick = {
             () => setStatus("Open")
