@@ -7,8 +7,8 @@ function CheckBox() {
     return ( <
         >
         <
-        input type = "checkbox" / >
-        <
+        input type = "checkbox"
+        value = "checked" / > { checked ? "checked" : "not checked" } <
         />
     )
 
