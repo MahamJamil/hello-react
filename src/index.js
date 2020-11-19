@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 function App({ name }) {
+    const [year] = useState(2050)
     const [manager, setManager] = useState("Alex")
     const [status, setStatus] = useState("Open")
     return ( <
@@ -12,7 +13,8 @@ function App({ name }) {
         <
         h1 > Manager on Duty: { manager } < /h1> <
         button onClick = {
-            () => setManager("Rachel") } > New Manager < /button> < /
+            () => setManager("Rachel")
+        } > New Manager < /button> < /
         div >
         <
         div >
