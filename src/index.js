@@ -11,7 +11,8 @@ function App({ name }) {
         div >
         <
         h1 > Manager on Duty: { manager } < /h1> <
-        button > New Manager < /button> < /
+        button onClick = {
+            () => setManager("Rachel") } > New Manager < /button> < /
         div >
         <
         div >
