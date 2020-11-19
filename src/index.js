@@ -5,10 +5,17 @@ import './index.css';
 function App() {
     const [val, setVal] = useState("");
     const [val2, setVal2] = useState("");
+
     useEffect(() => {
         console.log(`field 1:
         $ { val }`)
     })
+
+    useEffect(() => {
+        console.log(`field 2:
+        $ { val2 }`)
+    })
+
     return ( <
         >
         <
