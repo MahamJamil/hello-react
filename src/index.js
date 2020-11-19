@@ -10,7 +10,8 @@ function App({ name }) {
         <
         div >
         <
-        h1 > Manager on Duty: { manager } < /h1> < /
+        h1 > Manager on Duty: { manager } < /h1> <
+        button > New Manager < /button> < /
         div >
         <
         div >
