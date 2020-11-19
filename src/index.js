@@ -11,16 +11,16 @@ function App() {
         <
         input / >
         <
-        /label> 
-
+        /label>  <
+        br / >
         <
         label >
         Second Favorite Phrase:
         <
         input / >
         <
-        /label > <
-        />
+        /label > < /
+        >
     )
 }
 
