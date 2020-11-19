@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
 function App() {
     const [val, setVal] = useState("");
     const [val2, setVal2] = useState("");
+    useEffect(() => {
+        console.log(`field 1:
+        $ { val }`)
+    })
     return ( <
         >
         <
