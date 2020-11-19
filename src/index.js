@@ -8,8 +8,11 @@ function CheckBox() {
         >
         <
         input type = "checkbox"
-        value = "checked" / > { checked ? "checked" : "not checked" } <
-        />
+        value = "checked"
+        onChange = {
+            () => setChecked(checked => !checked) }
+        / > { checked ? "checked" : "not checked" } < /
+        >
     )
 
 }
