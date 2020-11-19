@@ -1,25 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-function Lake() {
-    return ( <
-        h1 > Lake! < /h1> 
-    )
-}
-
-function SkiResort() {
-    return ( <
-        h1 > Ski Resort! < /h1> 
-    )
-}
 
 function App({ name }) {
     return ( <
         div >
         <
-        h1 > Status < /h1> <
-        /div>
+        h1 > Status < /h1> < /
+        div >
     );
 
 
