@@ -7,7 +7,7 @@ function App({ name }) {
     return ( <
         div >
         <
-        h1 > Status < /h1> < /
+        h1 > Status: { status } < /h1> < /
         div >
     );
 
@@ -17,11 +17,3 @@ function App({ name }) {
 ReactDOM.render( < App / > ,
     document.getElementById('root')
 );
-
-const [, , fruit] = [
-    "popcorn",
-    "pretzels",
-    "pineapples"
-];
-
-console.log(fruit);
