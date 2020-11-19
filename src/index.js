@@ -10,7 +10,10 @@ function App({ name }) {
         h1 > Status: { status } < /h1>   <
         button onClick = {
             () => setStatus("Open")
-        } > Open < /button > <
+        } > Open < /button >  <
+        button onClick = {
+            () => setStatus("Back in 5 mins")
+        } > Back in 5 mins < /button > <
         button onClick = {
             () => setStatus("Closed")
         } > Closed < /button> < /
