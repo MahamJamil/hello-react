@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 function App({ name }) {
-    const [year] = useState(2050)
+    const [year, setYear] = useState(2050)
     const [manager, setManager] = useState("Alex")
     const [status, setStatus] = useState("Open")
     return ( <
         >
         <
+        div >
+        <
+        h1 > { year } < /h1> < /
+        div > <
         div >
         <
         h1 > Manager on Duty: { manager } < /h1> <
