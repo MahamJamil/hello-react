@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
 function CheckBox() {
+    const [checked, setChecked] = useState(false)
     return ( <
         >
         <
