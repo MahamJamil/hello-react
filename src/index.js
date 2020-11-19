@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 function App({ name }) {
+    const [status] = useState("Open")
     return ( <
         div >
         <
