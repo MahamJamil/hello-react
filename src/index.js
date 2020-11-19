@@ -3,7 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 function CheckBox() {
-
+    return ( <
+        >
+        <
+        input type = "checkbox" / >
+        <
+        />
+    )
 
 }
 
