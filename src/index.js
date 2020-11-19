@@ -12,11 +12,13 @@ function App() {
         Favorite Phrase:
         <
         input value = { val }
+        onChange = { e => setVal(e.target.value) }
         / > < /
         label > <
         br / >
         <
         label > Second Favorite Phrase: < input value = { val2 }
+        onChange = { e => setVal2(e.target.value) }
         /> < /
         label > < / >
     )
