@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 function App({ name }) {
+    const [manager, setManager] = useState("Alex")
     const [status, setStatus] = useState("Open")
     return ( <
         div >
