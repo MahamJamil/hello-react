@@ -8,8 +8,8 @@ function App({ name }) {
     return ( <
         div >
         <
-        h1 > Manager: { manager } < /h1> <
-        /div> <
+        h1 > Manager on Duty: { manager } < /h1> < /
+        div > <
         div >
         <
         h1 > Status: { status } < /h1>   <
