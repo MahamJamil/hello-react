@@ -12,8 +12,8 @@ function App({ name }) {
             () => setStatus("Open")
         } > Open < /button >  <
         button onClick = {
-            () => setStatus("Back")
-        } > Back in 5 mins < /button > <
+            () => setStatus("Back in 5 mins")
+        } > Back < /button > <
         button onClick = {
             () => setStatus("Closed")
         } > Closed < /button> < /
