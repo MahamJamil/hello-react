@@ -4,7 +4,10 @@ import './index.css';
 
 function CheckBox() {
     const [checked, setChecked] = useState(true)
-    alert(`checked: ${checked.toString()}`)
+    useEffect(() => {
+        alert(`checked: ${checked.toString()}`);
+    });
+
     return ( <
         >
         <
