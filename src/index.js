@@ -12,15 +12,13 @@ function App() {
         Favorite Phrase:
         <
         input value = { val }
-        / > <
-        /label>  <
+        / > < /
+        label > <
         br / >
         <
-        label >
-        Second Favorite Phrase:
-        <
-        input value = { val2 } <
-        /label > < / >
+        label > Second Favorite Phrase: < input value = { val2 }
+        /> < /
+        label > < / >
     )
 }
 
