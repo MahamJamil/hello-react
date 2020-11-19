@@ -5,8 +5,13 @@ import './index.css';
 function App() {
     return ( <
         >
-
         <
+        label >
+        Favorite Phrase:
+        <
+        input / >
+        <
+        /label> <
         />
     )
 }
