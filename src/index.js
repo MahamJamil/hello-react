@@ -11,16 +11,15 @@ function App() {
         label >
         Favorite Phrase:
         <
-        input / >
-        <
+        input value = { val }
+        / > <
         /label>  <
         br / >
         <
         label >
         Second Favorite Phrase:
         <
-        input / >
-        <
+        input value = { val2 } <
         /label > < / >
     )
 }
