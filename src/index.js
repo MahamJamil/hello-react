@@ -16,20 +16,16 @@ function SkiResort() {
 
 function App({ name }) {
     return ( <
-        >
+        div >
         <
-        h1 > { name } < /h1> <
-        Lake / >
-        <
-        SkiResort / >
-        <
-        />
+        h1 > Status < /h1> <
+        /div>
     );
 
 
 }
 
-ReactDOM.render( < App name = "React" / > ,
+ReactDOM.render( < App / > ,
     document.getElementById('root')
 );
 
