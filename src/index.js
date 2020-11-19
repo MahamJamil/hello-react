@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-function GithubUser() {
+function GithubUser(login) {
 
 }
 
 function App() {
-    return <GithubUser / >
+    return <GithubUser login = "moonhighway" / >
 }
 
 ReactDOM.render( < App / > ,
