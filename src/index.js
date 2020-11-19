@@ -11,7 +11,15 @@ function App() {
         <
         input / >
         <
-        /label> <
+        /label> 
+
+        <
+        label >
+        Second Favorite Phrase:
+        <
+        input / >
+        <
+        /label > <
         />
     )
 }
