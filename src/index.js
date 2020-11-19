@@ -11,11 +11,14 @@ function App({ name }) {
         <
         div >
         <
-        h1 > { year } < /h1> < /
+        h1 > { year } < /h1> <
+        button onClick = {
+            () => setYear(year + 1)
+        } > New Year! < /button> < /
         div > <
         div >
         <
-        h1 > Manager on Duty: { manager } < /h1> <
+        h1 > Manager on Duty: { manager } < /h1>  <
         button onClick = {
             () => setManager("Rachel")
         } > New Manager < /button> < /
